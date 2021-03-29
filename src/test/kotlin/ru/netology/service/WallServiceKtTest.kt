@@ -186,7 +186,7 @@ class WallServiceKtTest {
         wallService.add(post)
         wallService.add(post)
         wallService.add(post)
-        val result = wallService.update(post.copy(id = 1))
+        val result = wallService.update(post.copy(id = 0))
         assertFalse(result)
     }
 }
