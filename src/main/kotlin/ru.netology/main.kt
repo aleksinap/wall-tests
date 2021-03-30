@@ -56,7 +56,7 @@ fun main() {
         postponedId = 12345
     )
     val post1 = Post(
-        id = 2,
+        id = 7,
         ownerId = 1234,
         fromId = 456,
         createdBy = 67867,
@@ -107,6 +107,10 @@ fun main() {
         postponedId = 34563
     )
     val wallService = WallService()
+    wallService.add(post)
+    wallService.add(post)
+    wallService.add(post)
+    wallService.add(post)
     wallService.add(post)
     wallService.add(post)
     wallService.add(post)

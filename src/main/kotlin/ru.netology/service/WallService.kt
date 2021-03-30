@@ -1,23 +1,12 @@
 package ru.netology.service
 
 import ru.netology.data.Post
-import kotlin.random.Random
 
-class  WallService {
+class  WallService() {
     private var posts = emptyArray<Post>()
 
     fun add(post: Post): Post {
-        var unicId: Int = post.id
-        fun isUnic() : Boolean{
-            for(post in posts){
-                if(post.id == unicId) return false
-            }
-            return true
-        }
-        while (!isUnic()) {
-            unicId = Random.nextInt(1, 5)
-        }
-        posts += post.copy(id = unicId)
+        posts += if(posts.isEmpty()) post.copy(id = 1) else post.copy(id = posts.last().id + 1)
         return posts.last()
     }
 

@@ -72,7 +72,7 @@ class WallServiceKtTest {
     fun updateExisting() {
         val wallService = WallService()
         val post = Post(
-            id = 4,
+            id = 2,
             ownerId = 12,
             fromId = 123,
             createdBy = 1234,
@@ -133,7 +133,7 @@ class WallServiceKtTest {
     fun updateNotExisting() {
         val wallService = WallService()
         val post = Post(
-            id = 1,
+            id = 0,
             ownerId = 12,
             fromId = 123,
             createdBy = 1234,
@@ -186,7 +186,7 @@ class WallServiceKtTest {
         wallService.add(post)
         wallService.add(post)
         wallService.add(post)
-        val result = wallService.update(post.copy(id = 0))
+        val result = wallService.update(post)
         assertFalse(result)
     }
 }
