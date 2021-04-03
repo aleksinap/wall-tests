@@ -46,7 +46,19 @@ class WallServiceKtTest {
             ),
             views = View(count = 25),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profileActivity",
+                url = "https://netology.ru"
+            ),
+            geo = Geo(
+                type = "type",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 2345,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = false,
@@ -106,7 +118,19 @@ class WallServiceKtTest {
             ),
             views = View(count = 25),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profileActivity",
+                url = "https://netology.ru"
+            ),
+            geo = Geo(
+                type = "type",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 2345,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = false,
@@ -167,7 +191,19 @@ class WallServiceKtTest {
             ),
             views = View(count = 25),
             postType = "post",
+            postSource = PostSource(
+                type = "vk",
+                platform = "android",
+                data = "profileActivity",
+                url = "https://netology.ru"
+            ),
+            geo = Geo(
+                type = "type",
+                coordinates = "coordinates",
+                place = null
+            ),
             signerId = 2345,
+            copyHistory = null,
             canPin = true,
             canDelete = false,
             canEdit = false,

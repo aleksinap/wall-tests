@@ -34,9 +34,15 @@ data class Post(
     val views: View,
     //    тип записи, может принимать следующие значения: post, copy, reply, postpone, suggest.
     val postType: String,
+    //    информация о способе размещения записи
+    //    Поле возвращается только для Standalone-приложений с ключом доступа, полученным в Implicit Flow.
+    val postSource: PostSource?,
+    //    информация о местоположении
+    val geo: Geo?,
     //    идентификатор автора, если запись была опубликована от имени сообщества и подписана пользователем;
     val signerId: Int,
     //    информация о том, может ли текущий пользователь закрепить запись (true — может, false — не может).
+    val copyHistory: Array<Post>?,
     val canPin: Boolean,
     //    информация о том, может ли текущий пользователь удалить запись (true — может, false — не может).
     val canDelete: Boolean,

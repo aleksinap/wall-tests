@@ -39,7 +39,19 @@ fun main() {
         ),
         views = View(count = 25),
         postType = "post",
+        postSource = PostSource(
+            type = "vk",
+            platform = "android",
+            data = "profileActivity",
+            url = "https://netology.ru"
+        ),
+        geo = Geo(
+            type = "type",
+            coordinates = "coordinates",
+            place = null
+        ),
         signerId = 2345,
+        copyHistory = null,
         canPin = true,
         canDelete = false,
         canEdit = false,
@@ -90,7 +102,19 @@ fun main() {
         ),
         views = View(count = 125),
         postType = "post",
+        postSource = PostSource(
+            type = "api",
+            platform = "android",
+            data = "z",
+            url = "https://netology.ru"
+        ),
+        geo = Geo(
+            type = "type",
+            coordinates = "coordinates",
+            place = null
+        ),
         signerId = 435,
+        copyHistory = null,
         canPin = true,
         canDelete = true,
         canEdit = true,
@@ -106,6 +130,7 @@ fun main() {
         ),
         postponedId = 34563
     )
+
     val wallService = WallService()
     wallService.add(post)
     wallService.add(post)
