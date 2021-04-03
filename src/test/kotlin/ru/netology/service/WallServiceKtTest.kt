@@ -34,7 +34,7 @@ class WallServiceKtTest {
                 name = "Нетология",
                 type = "Неизвестно",
             ),
-            like = Like(
+            likes = Like(
                 count = 121,
                 userLikes = false,
                 canLike = true,
