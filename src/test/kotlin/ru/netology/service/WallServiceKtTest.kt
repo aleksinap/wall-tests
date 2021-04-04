@@ -52,6 +52,100 @@ class WallServiceKtTest {
                 data = "profileActivity",
                 url = "https://netology.ru"
             ),
+            attachments = arrayOf(
+                PhotoAttachment(
+                    photo = Photo(
+                        id = 1,
+                        albumId = 1,
+                        ownerId = 1,
+                        userId = 1,
+                        text = "1",
+                        date = 112345,
+                        sizes = arrayOf(),
+                        width = 1024,
+                        height = 768
+                    )
+                ),
+                VideoAttachment(
+                    video = Video(
+                        id = 1,
+                        ownerId = 1,
+                        title = "",
+                        description = "Недоступно",
+                        duration = 1234,
+                        image = arrayOf(),
+                        firstFrame = arrayOf(),
+                        date = 1423434,
+                        addingDate = 1234654,
+                        views = 234,
+                        localViews = 6,
+                        comments = 23,
+                        player= "flash",
+                        platform = "https://netology.ru",
+                        canAdd = true,
+                        isPrivate = true,
+                        accessKey = "https://netology.ru",
+                        processing = true,
+                        isFavorite = true,
+                        canComment = true,
+                        canEdit = true,
+                        canLike = true,
+                        canRepost = true,
+                        canSubscribe = true,
+                        canAddToFaves = true,
+                        canAtachLink = true,
+                        width = 1024,
+                        height = 768,
+                        userId = 456345,
+                        converting = true,
+                        added = true,
+                        isSubscribed = true,
+                        repeat = true,
+                        type = "video",
+                        balance = 0,
+                        liveStatus = "waiting",
+                        live = true,
+                        upcoming = true,
+                        spectators = 23
+                    )
+                ),
+                AudioAttachment(
+                    audio = Audio(
+                        id = 1,
+                        owner_id = 1,
+                        artist = "No doubt",
+                        title = "Don't speak",
+                        duration = 1,
+                        url = "https://netology.ru",
+                        lyricsId = 1,
+                        albumId = 1,
+                        genreId = 1,
+                        date = 1,
+                        no_search = true,
+                        isHq = true
+                    )
+                ),
+                PostedPhotoAttachment(
+                    postedPhoto = PostedPhoto(
+                        id = 1,
+                        ownerId = 1,
+                        photo130 = "https://netology.ru",
+                        photo604 = "https://netology.ru"
+                    )
+                ),
+                NoteAttachment(
+                    note = Note(
+                        id = 1,
+                        ownerId = 1,
+                        title = "Недоступно",
+                        text = "Недоступно",
+                        date = 1654,
+                        comments = 1,
+                        readComments = 1,
+                        viewUrl = "https://netology.ru"
+                    )
+                )
+            ),
             geo = Geo(
                 type = "type",
                 coordinates = "coordinates",
@@ -123,6 +217,100 @@ class WallServiceKtTest {
                 platform = "android",
                 data = "profileActivity",
                 url = "https://netology.ru"
+            ),
+            attachments = arrayOf(
+                PhotoAttachment(
+                    photo = Photo(
+                        id = 1,
+                        albumId = 1,
+                        ownerId = 1,
+                        userId = 1,
+                        text = "1",
+                        date = 112345,
+                        sizes = arrayOf(),
+                        width = 1024,
+                        height = 768
+                    )
+                ),
+                VideoAttachment(
+                    video = Video(
+                        id = 1,
+                        ownerId = 1,
+                        title = "",
+                        description = "Недоступно",
+                        duration = 1234,
+                        image = arrayOf(),
+                        firstFrame = arrayOf(),
+                        date = 1423434,
+                        addingDate = 1234654,
+                        views = 234,
+                        localViews = 6,
+                        comments = 23,
+                        player= "flash",
+                        platform = "https://netology.ru",
+                        canAdd = true,
+                        isPrivate = true,
+                        accessKey = "https://netology.ru",
+                        processing = true,
+                        isFavorite = true,
+                        canComment = true,
+                        canEdit = true,
+                        canLike = true,
+                        canRepost = true,
+                        canSubscribe = true,
+                        canAddToFaves = true,
+                        canAtachLink = true,
+                        width = 1024,
+                        height = 768,
+                        userId = 456345,
+                        converting = true,
+                        added = true,
+                        isSubscribed = true,
+                        repeat = true,
+                        type = "video",
+                        balance = 0,
+                        liveStatus = "waiting",
+                        live = true,
+                        upcoming = true,
+                        spectators = 23
+                    )
+                ),
+                AudioAttachment(
+                    audio = Audio(
+                        id = 1,
+                        owner_id = 1,
+                        artist = "No doubt",
+                        title = "Don't speak",
+                        duration = 1,
+                        url = "https://netology.ru",
+                        lyricsId = 1,
+                        albumId = 1,
+                        genreId = 1,
+                        date = 1,
+                        no_search = true,
+                        isHq = true
+                    )
+                ),
+                PostedPhotoAttachment(
+                    postedPhoto = PostedPhoto(
+                        id = 1,
+                        ownerId = 1,
+                        photo130 = "https://netology.ru",
+                        photo604 = "https://netology.ru"
+                    )
+                ),
+                NoteAttachment(
+                    note = Note(
+                        id = 1,
+                        ownerId = 1,
+                        title = "Недоступно",
+                        text = "Недоступно",
+                        date = 1654,
+                        comments = 1,
+                        readComments = 1,
+                        viewUrl = "https://netology.ru"
+                    )
+                )
             ),
             geo = Geo(
                 type = "type",
@@ -196,6 +384,100 @@ class WallServiceKtTest {
                 platform = "android",
                 data = "profileActivity",
                 url = "https://netology.ru"
+            ),
+            attachments = arrayOf(
+                PhotoAttachment(
+                    photo = Photo(
+                        id = 1,
+                        albumId = 1,
+                        ownerId = 1,
+                        userId = 1,
+                        text = "1",
+                        date = 112345,
+                        sizes = arrayOf(),
+                        width = 1024,
+                        height = 768
+                    )
+                ),
+                VideoAttachment(
+                    video = Video(
+                        id = 1,
+                        ownerId = 1,
+                        title = "",
+                        description = "Недоступно",
+                        duration = 1234,
+                        image = arrayOf(),
+                        firstFrame = arrayOf(),
+                        date = 1423434,
+                        addingDate = 1234654,
+                        views = 234,
+                        localViews = 6,
+                        comments = 23,
+                        player= "flash",
+                        platform = "https://netology.ru",
+                        canAdd = true,
+                        isPrivate = true,
+                        accessKey = "https://netology.ru",
+                        processing = true,
+                        isFavorite = true,
+                        canComment = true,
+                        canEdit = true,
+                        canLike = true,
+                        canRepost = true,
+                        canSubscribe = true,
+                        canAddToFaves = true,
+                        canAtachLink = true,
+                        width = 1024,
+                        height = 768,
+                        userId = 456345,
+                        converting = true,
+                        added = true,
+                        isSubscribed = true,
+                        repeat = true,
+                        type = "video",
+                        balance = 0,
+                        liveStatus = "waiting",
+                        live = true,
+                        upcoming = true,
+                        spectators = 23
+                    )
+                ),
+                AudioAttachment(
+                    audio = Audio(
+                        id = 1,
+                        owner_id = 1,
+                        artist = "No doubt",
+                        title = "Don't speak",
+                        duration = 1,
+                        url = "https://netology.ru",
+                        lyricsId = 1,
+                        albumId = 1,
+                        genreId = 1,
+                        date = 1,
+                        no_search = true,
+                        isHq = true
+                    )
+                ),
+                PostedPhotoAttachment(
+                    postedPhoto = PostedPhoto(
+                        id = 1,
+                        ownerId = 1,
+                        photo130 = "https://netology.ru",
+                        photo604 = "https://netology.ru"
+                    )
+                ),
+                NoteAttachment(
+                    note = Note(
+                        id = 1,
+                        ownerId = 1,
+                        title = "Недоступно",
+                        text = "Недоступно",
+                        date = 1654,
+                        comments = 1,
+                        readComments = 1,
+                        viewUrl = "https://netology.ru"
+                    )
+                )
             ),
             geo = Geo(
                 type = "type",
