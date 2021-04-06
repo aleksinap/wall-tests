@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.service.WallServiceKtTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-03T20:19:07" hostname="LENOVO" time="0.633">
+<testsuite name="ru.netology.service.WallServiceKtTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-04T20:13:30" hostname="LENOVO" time="0.639">
   <properties/>
-  <testcase name="updateExisting" classname="ru.netology.service.WallServiceKtTest" time="0.583"/>
-  <testcase name="add_id_is_not_equal_zero" classname="ru.netology.service.WallServiceKtTest" time="0.004"/>
-  <testcase name="updateNotExisting" classname="ru.netology.service.WallServiceKtTest" time="0.03"/>
+  <testcase name="updateExisting" classname="ru.netology.service.WallServiceKtTest" time="0.595"/>
+  <testcase name="add_id_is_not_equal_zero" classname="ru.netology.service.WallServiceKtTest" time="0.002"/>
+  <testcase name="updateNotExisting" classname="ru.netology.service.WallServiceKtTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
