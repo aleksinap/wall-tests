@@ -38,7 +38,7 @@ data class Post(
     //    Поле возвращается только для Standalone-приложений с ключом доступа, полученным в Implicit Flow.
     val postSource: PostSource?,
     //    медиавложения записи (фотографии, ссылки и т.п.)
-    val attachments: Array<Attachment>,
+    val attachments: Array<Attachment>?,
     //    информация о местоположении
     val geo: Geo?,
     //    идентификатор автора, если запись была опубликована от имени сообщества и подписана пользователем;
