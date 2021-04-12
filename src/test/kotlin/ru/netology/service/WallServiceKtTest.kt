@@ -53,7 +53,7 @@ class WallServiceKtTest {
                 url = "https://netology.ru"
             ),
             attachments = arrayOf(
-                PhotoAttachment(
+                Attachment.PhotoAttachment(
                     photo = Photo(
                         id = 1,
                         albumId = 1,
@@ -66,7 +66,7 @@ class WallServiceKtTest {
                         height = 768
                     )
                 ),
-                VideoAttachment(
+                Attachment.VideoAttachment(
                     video = Video(
                         id = 1,
                         ownerId = 1,
@@ -109,7 +109,7 @@ class WallServiceKtTest {
                         spectators = 23
                     )
                 ),
-                AudioAttachment(
+                Attachment.AudioAttachment(
                     audio = Audio(
                         id = 1,
                         owner_id = 1,
@@ -125,7 +125,7 @@ class WallServiceKtTest {
                         isHq = true
                     )
                 ),
-                PostedPhotoAttachment(
+                Attachment.PostedPhotoAttachment(
                     postedPhoto = PostedPhoto(
                         id = 1,
                         ownerId = 1,
@@ -133,7 +133,7 @@ class WallServiceKtTest {
                         photo604 = "https://netology.ru"
                     )
                 ),
-                NoteAttachment(
+                Attachment.NoteAttachment(
                     note = Note(
                         id = 1,
                         ownerId = 1,
@@ -219,7 +219,7 @@ class WallServiceKtTest {
                 url = "https://netology.ru"
             ),
             attachments = arrayOf(
-                PhotoAttachment(
+                Attachment.PhotoAttachment(
                     photo = Photo(
                         id = 1,
                         albumId = 1,
@@ -232,7 +232,7 @@ class WallServiceKtTest {
                         height = 768
                     )
                 ),
-                VideoAttachment(
+                Attachment.VideoAttachment(
                     video = Video(
                         id = 1,
                         ownerId = 1,
@@ -275,7 +275,7 @@ class WallServiceKtTest {
                         spectators = 23
                     )
                 ),
-                AudioAttachment(
+                Attachment.AudioAttachment(
                     audio = Audio(
                         id = 1,
                         owner_id = 1,
@@ -291,7 +291,7 @@ class WallServiceKtTest {
                         isHq = true
                     )
                 ),
-                PostedPhotoAttachment(
+                Attachment.PostedPhotoAttachment(
                     postedPhoto = PostedPhoto(
                         id = 1,
                         ownerId = 1,
@@ -299,7 +299,7 @@ class WallServiceKtTest {
                         photo604 = "https://netology.ru"
                     )
                 ),
-                NoteAttachment(
+                Attachment.NoteAttachment(
                     note = Note(
                         id = 1,
                         ownerId = 1,
@@ -386,7 +386,7 @@ class WallServiceKtTest {
                 url = "https://netology.ru"
             ),
             attachments = arrayOf(
-                PhotoAttachment(
+                Attachment.PhotoAttachment(
                     photo = Photo(
                         id = 1,
                         albumId = 1,
@@ -399,7 +399,7 @@ class WallServiceKtTest {
                         height = 768
                     )
                 ),
-                VideoAttachment(
+                Attachment.VideoAttachment(
                     video = Video(
                         id = 1,
                         ownerId = 1,
@@ -442,7 +442,7 @@ class WallServiceKtTest {
                         spectators = 23
                     )
                 ),
-                AudioAttachment(
+                Attachment.AudioAttachment(
                     audio = Audio(
                         id = 1,
                         owner_id = 1,
@@ -458,7 +458,7 @@ class WallServiceKtTest {
                         isHq = true
                     )
                 ),
-                PostedPhotoAttachment(
+                Attachment.PostedPhotoAttachment(
                     postedPhoto = PostedPhoto(
                         id = 1,
                         ownerId = 1,
@@ -466,7 +466,7 @@ class WallServiceKtTest {
                         photo604 = "https://netology.ru"
                     )
                 ),
-                NoteAttachment(
+                Attachment.NoteAttachment(
                     note = Note(
                         id = 1,
                         ownerId = 1,

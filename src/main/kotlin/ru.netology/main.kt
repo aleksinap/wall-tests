@@ -46,7 +46,7 @@ fun main() {
             url = "https://netology.ru"
         ),
         attachments = arrayOf(
-            PhotoAttachment(
+            Attachment.PhotoAttachment(
                 photo = Photo(
                     id = 1,
                     albumId = 1,
@@ -59,7 +59,7 @@ fun main() {
                     height = 768
                 )
             ),
-            VideoAttachment(
+            Attachment.VideoAttachment(
                 video = Video(
                     id = 1,
                     ownerId = 1,
@@ -102,7 +102,7 @@ fun main() {
                     spectators = 23
                 )
             ),
-            AudioAttachment(
+            Attachment.AudioAttachment(
                 audio = Audio(
                     id = 1,
                     owner_id = 1,
@@ -118,7 +118,7 @@ fun main() {
                     isHq = true
                 )
             ),
-            PostedPhotoAttachment(
+            Attachment.PostedPhotoAttachment(
                 postedPhoto = PostedPhoto(
                     id = 1,
                     ownerId = 1,
@@ -126,7 +126,7 @@ fun main() {
                     photo604 = "https://netology.ru"
                 )
             ),
-            NoteAttachment(
+            Attachment.NoteAttachment(
                 note = Note(
                     id = 1,
                     ownerId = 1,
@@ -203,7 +203,7 @@ fun main() {
             url = "https://netology.ru"
         ),
         attachments = arrayOf(
-            PhotoAttachment(
+            Attachment.PhotoAttachment(
                 photo = Photo(
                     id = 1,
                     albumId = 1,
@@ -216,7 +216,7 @@ fun main() {
                     height = 768
                 )
             ),
-            VideoAttachment(
+            Attachment.VideoAttachment(
                 video = Video(
                     id = 1,
                     ownerId = 1,
@@ -259,7 +259,7 @@ fun main() {
                     spectators = 23
                 )
             ),
-            AudioAttachment(
+            Attachment.AudioAttachment(
                 audio = Audio(
                     id = 1,
                     owner_id = 1,
@@ -275,7 +275,7 @@ fun main() {
                     isHq = true
                 )
             ),
-            PostedPhotoAttachment(
+            Attachment.PostedPhotoAttachment(
                 postedPhoto = PostedPhoto(
                     id = 1,
                     ownerId = 1,
@@ -283,7 +283,7 @@ fun main() {
                     photo604 = "https://netology.ru"
                 )
             ),
-            NoteAttachment(
+            Attachment.NoteAttachment(
                 note = Note(
                     id = 1,
                     ownerId = 1,
